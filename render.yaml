@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: heroes-de-la-cienaga
+    runtime: static
+    buildCommand: echo "Sitio estatico listo"
+    staticPublishPath: ./public
